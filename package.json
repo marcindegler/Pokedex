@@ -1,0 +1,20 @@
+{
+  "name": "pokedex",
+  "version": "1.0.0",
+  "description": "projekt pokedex - rekrutacja allegro",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node script.js"
+  },
+  "keywords": [
+    "pokedex",
+    "allegro",
+    "rekrutacja"
+  ],
+  "author": "Degler Marcin",
+  "license": "ISC",
+  "dependencies": {
+    "opn": "^6.0.0"
+  }
+}

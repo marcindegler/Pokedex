@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="style.css" type="text/css" />
+   <title>Document</title>
+</head>
+<body>
+   <h1>PokeDex</h1>
+   <div class="filterbox">
+      <label class="normal">Normal<input id="normal" name="check" type="checkbox" onclick="clicked(this);"></label>
+      <label class="fighting:">Fighting<input id="fighting" name="check" type="checkbox" onclick="clicked(this);"></label>
+      <label class="flying">Flying<input id="flying" name="check" type="checkbox" onclick="clicked(this);"></label>
+      <label class="poison">Poison<input id="poison" name="check" type="checkbox" onclick="clicked(this);"></label>
+      <label class="ground">Ground<input id="ground" name="check" type="checkbox" onclick="clicked(this);"></label>
+      <label class="rock">Rock<input id="rock" name="check" type="checkbox" onclick="clicked(this);"></label>
+      <label class="bug">Bug<input id="bug" name="check" type="checkbox" onclick="clicked(this);"></label>
+      <label class="ghost">Ghost<input id="ghost" name="check" type="checkbox" onclick="clicked(this);"></label>
+      <label class="steel">Steel<input id="steel" name="check" type="checkbox" onclick="clicked(this);"></label>
+      <label class="fire">Fire<input id="fire" name="check" type="checkbox" onclick="clicked(this);"></label>
+      <label class="water">Water<input id="water" name="check" type="checkbox" onclick="clicked(this);"></label>
+      <label class="grass">Grass<input id="grass" name="check" type="checkbox" onclick="clicked(this);"></label>
+      <label class="electric">Electric<input id="electric" name="check" type="checkbox" onclick="clicked(this);"></label>
+      <label class="psychic">Psychic<input id="psychic" name="check" type="checkbox" onclick="clicked(this);"></label>
+      <label class="ice">Ice<input id="ice" name="check" type="checkbox" onclick="clicked(this);"></label>
+      <label class="dragon">Dragon<input id="dragon" name="check" type="checkbox" onclick="clicked(this);"></label>
+      <label class="dark">Dark<input id="dark" name="check" type="checkbox" onclick="clicked(this);"></label>
+      <label class="fairy">Fairy<input id="fairy" name="check" type="checkbox" onclick="clicked(this);"></label>
+      <label class="shadow">Shadow<input id="shadow" name="check" type="checkbox" onclick="clicked(this);"></label>
+   </div>
+   <div class="pagination"> <span class="filtrclick" onclick="clicked(this)">Filter</span> </div>
+   <div id="pokemonContainer" class="pokemon_container"></div>
+
+
+   </div>
+
+
+
+   <div class="footerauthor"> Degler Marcin_ <span class="footer"></span></div>
+   <script src="main.js"></script>
+</body>
+</html>
